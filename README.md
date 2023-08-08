@@ -6,8 +6,6 @@
 
 This is a simple Android app that demonstrates user input handling and validation through a basic login page. The app allows users to input their credentials and validates the input.
 
-Use username: admin and password: admin, Enjoy
-
 ## Features
 
 - User-friendly and intuitive login interface.
