@@ -1,6 +1,6 @@
 # Simple Login App
 
-![App Demo](login-page.jpg)
+<img src="login-page.jpg" alt="App Demo" width="300" height="533">
 
 ## Overview
 
@@ -24,3 +24,29 @@ Use username: admin and password: admin, Enjoy
 
    ```bash
    git clone https://github.com/yuzalsif/java-login-page.git
+
+   Open the project in Android Studio:
+
+2. 🚀 Launch Android Studio.
+
+🔧 Click on "File" > "Open" and select the cloned project directory.
+
+⏳ Wait for Android Studio to sync the project and set up the necessary files.
+
+3. Build and run the app using an emulator or physical device:
+
+📱 If you're using an emulator, ensure it's set up and running in Android Studio.
+
+▶️ Click on the green "Run" button in Android Studio (or press Shift + F10) to build and launch the app.
+
+🚀 Choose your connected emulator or physical device to deploy the app.
+
+4. Interact with the app:
+
+📝 Once the app is launched on the emulator or device, you can interact with the login page.
+
+✏️ Enter the following credentials to test the input validation functionality:
+
+Username: admin
+Password: admin
+🎉 Enjoy exploring the app's features and user-friendly interface!
