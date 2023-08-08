@@ -1,6 +1,6 @@
 # Simple Login App
 
-![App Demo](app_demo.gif)
+![App Demo](login-page.jpg)
 
 ## Overview
 
