@@ -2,6 +2,7 @@ package com.example.login_page;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (userName.getText().toString().equals("admin") && password.getText().toString().equals("admin")) {
-
+                    Intent intent = new Intent(MainActivity.this, HomePage.class);
+                    startActivity(intent);
                     Toast.makeText(MainActivity.this, "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(MainActivity.this, "LOGIN FAILED", Toast.LENGTH_SHORT).show();
