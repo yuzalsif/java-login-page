@@ -6,7 +6,7 @@
     android:padding="2dp"
     app:cardCornerRadius="5dp"
     app:cardElevation="5dp"
-    android:background="@color/white"
+    android:background="#FFFFFF"
     >
 
     <TextView
@@ -14,5 +14,11 @@
         android:id="@+id/cardTextView"
         android:layout_height="match_parent"
         android:fontFamily="@font/poppins"
-        android:text="@string/app_name" />
+        android:textSize="18dp"
+        android:text="@string/app_name"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="12dp"
+        android:background="@color/white"
+        android:textColor="#272829"
+        />
 </androidx.cardview.widget.CardView>

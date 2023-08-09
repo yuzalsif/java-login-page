@@ -17,7 +17,7 @@
         android:gravity="center"
         android:text="Programming Jokes"
         android:textColor="#272829"
-        android:textSize="18dp"
+        android:textSize="26dp"
         android:id="@+id/title"
         />
 
@@ -25,10 +25,11 @@
         android:layout_width="match_parent"
         android:id="@+id/idGridView"
         android:layout_height="match_parent"
-        android:horizontalSpacing="5dp"
+        android:horizontalSpacing="16dp"
         android:numColumns="2"
-        android:verticalSpacing="5dp"
+        android:verticalSpacing="16dp"
         android:layout_below="@+id/title"
+        android:layout_margin="10dp"
         />
 
 </RelativeLayout>
